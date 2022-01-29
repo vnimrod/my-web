@@ -1,9 +1,10 @@
-import '../styles/globals.css';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
+import '../styles/globals.scss';
 import { MainLayout } from '../components/main-layout/main-layout';
 import { Header } from '../components/header/header';
-import styles from '../styles/Home.module.css';
+import { Footer } from '../components/footer';
+import styles from '../styles/Home.module.scss';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -15,7 +16,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <MainLayout>
         <Component {...pageProps} />
       </MainLayout>
-      <footer className={styles.footer}>footer</footer>
+      <Footer />
     </>
   );
 }
