@@ -7,8 +7,13 @@
   background-color: #ffffff;
   border-radius: 50%;
   font-family: 'Cookie', cursive;
+  cursor: pointer;
 
   .text {
     align-self: center;
   }
+}
+
+.Logo:hover {
+  background-color: #a9a9a9;
 }

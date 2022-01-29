@@ -1,0 +1,10 @@
+.navigationList {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  cursor: pointer;
+
+  :hover {
+    color: #a9a9a9;
+  }
+}
