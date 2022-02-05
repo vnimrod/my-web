@@ -1,8 +1,16 @@
 {
-  "navBarTextItems": [
+  "textItems": [
     { "text": "About", "link": "/about" },
     { "text": "Today", "link": "/today" },
     { "text": "Code Love Story", "link": "/code-love-story" },
     { "text": "Contact", "link": "/contact" }
+  ],
+  "iconItems": [
+    {
+      "path": "/linkedin.PNG",
+      "link": "https://www.linkedin.com/in/nimrod-weinstein-813094169"
+    },
+    { "path": "/github.PNG", "link": "https://github.com/vnimrod" },
+    { "path": "/mail.PNG", "link": "mailto: nimrod.weins@gmail.com" }
   ]
 }
