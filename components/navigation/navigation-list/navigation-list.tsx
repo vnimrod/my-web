@@ -7,7 +7,7 @@ export const NavigationList = () => {
   return (
     <ul className={styles.navigationList}>
       {data.navBarTextItems.map((item) => (
-        <NavigationItem textItem={item.text} />
+        <NavigationItem textItem={item.text} link={item.link} />
       ))}
     </ul>
   );

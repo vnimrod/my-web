@@ -1,8 +1,8 @@
 {
   "navBarTextItems": [
-    { "text": "About" },
-    { "text": "Professional Skills" },
-    { "text": "Portfolio" },
-    { "text": "Contact" }
+    { "text": "About", "link": "/about" },
+    { "text": "Today", "link": "/today" },
+    { "text": "Code Love Story", "link": "/code-love-story" },
+    { "text": "Contact", "link": "/contact" }
   ]
 }

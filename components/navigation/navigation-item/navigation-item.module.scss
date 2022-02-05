@@ -1,3 +1,9 @@
 .listItem {
-  color: white;
+  color: #61dafb;
+  cursor: pointer;
+
+  a.active,
+  .listItem:hover {
+    color: #808080;
+  }
 }
