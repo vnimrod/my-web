@@ -9,7 +9,11 @@ export const NavigationList = () => {
     <div className={styles.container}>
       <ul className={styles.navigationList}>
         {data.textItems.map((item) => (
-          <NavigationItem textItem={item.text} link={item.link} />
+          <NavigationItem
+            key={item.link}
+            textItem={item.text}
+            link={item.link}
+          />
         ))}
       </ul>
       <NavigationIcons />

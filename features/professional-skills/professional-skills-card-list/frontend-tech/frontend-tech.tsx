@@ -8,7 +8,7 @@ export const FrontendTech = () => {
     <li className={styles.frontendContainer}>
       <ul className={styles.frontendSkills}>
         {data.frontend.map((item) => (
-          <ProfessionalSkill skill={item.skill} />
+          <ProfessionalSkill key={item.skill} skill={item.skill} />
         ))}
       </ul>
       <span className={styles.title}>Frontend Tech</span>

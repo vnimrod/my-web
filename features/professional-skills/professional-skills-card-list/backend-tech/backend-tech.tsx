@@ -8,7 +8,7 @@ export const BackendTech = () => {
     <li className={styles.backendContainer}>
       <ul className={styles.backendSkills}>
         {data.backend.map((item) => (
-          <ProfessionalSkill skill={item.skill} />
+          <ProfessionalSkill key={item.skill} skill={item.skill} />
         ))}
       </ul>
       <span className={styles.title}>Backend Tech</span>

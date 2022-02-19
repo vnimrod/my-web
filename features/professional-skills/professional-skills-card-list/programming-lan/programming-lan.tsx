@@ -12,7 +12,7 @@ export const ProgrammingLan = () => {
       </div>
       <ul className={styles.programmingSkills}>
         {data.programming.map((item) => (
-          <ProfessionalSkill skill={item.skill} />
+          <ProfessionalSkill key={item.skill} skill={item.skill} />
         ))}
       </ul>
     </li>
