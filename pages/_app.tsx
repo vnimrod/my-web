@@ -16,7 +16,6 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <MainLayout>
         <Component {...pageProps} />
       </MainLayout>
-      <Footer />
     </>
   );
 }

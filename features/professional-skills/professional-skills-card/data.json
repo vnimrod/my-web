@@ -1,0 +1,25 @@
+{
+  "frontend": [
+    { "skill": "React.js" },
+    { "skill": "Redux" },
+    { "skill": "Next.js" },
+    { "skill": "Mobx" },
+    { "skill": "Vue.js" },
+    { "skill": "Vuex" },
+    { "skill": "Nuxt.js" },
+    { "skill": "CSS3" },
+    { "skill": "SCSS" },
+    { "skill": "Tailwind CSS" },
+    { "skill": "Bootstrap" }
+  ],
+  "backend": [
+    { "skill": "Node.js" },
+    { "skill": "Express" },
+    { "skill": "Rest API's" },
+    { "skill": "Socket.io" },
+    { "skill": "PHP" },
+    { "skill": "SQL" },
+    { "skill": "MongoDB" }
+  ],
+  "programming": [{ "skill": "TypeScript" }, { "skill": "JavaScript" }]
+}

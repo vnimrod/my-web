@@ -1,0 +1,33 @@
+.title {
+  font-family: 'Lilita One', cursive;
+  color: #db7093;
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+
+.backendContainer {
+  background-color: #4b0082;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 350px;
+  height: 250px;
+  box-shadow: inset 7em 1em gold;
+  margin-top: 150px;
+}
+
+.backendSkills {
+  width: 295px;
+  height: 175px;
+  padding: 5px;
+  position: absolute;
+  background-color: #db7093;
+  top: 110px;
+  right: 110px;
+  border-radius: 3px;
+  color: #ffb6c1;
+  font-weight: 600;
+  line-height: 24px;
+}

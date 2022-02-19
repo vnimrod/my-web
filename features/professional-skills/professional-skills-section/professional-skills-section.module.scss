@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.learnSentence {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  color: #708090;
+}
+
+.title1 {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.title2 {
+  font-family: 'Nunito', sans-serif;
+  color: #708090;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 140px;
+}

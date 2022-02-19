@@ -3,15 +3,25 @@ import { ProfessionalSkillsSection } from '../features/professional-skills/profe
 import { Portfolio } from '../features/portfolio';
 import { Contact } from '../features/contact';
 import styles from '../styles/Home.module.scss';
+import { Footer } from '../components/footer';
 
 const Index = () => {
   return (
-    <>
-      <About />
-      <ProfessionalSkillsSection />
-      <Portfolio />
-      <Contact />
-    </>
+    <div className={styles.mainLayout}>
+      <section className={styles.section}>
+        <About />
+      </section>
+      <section className={styles.section}>
+        <ProfessionalSkillsSection />
+      </section>
+      <section className={styles.section}>
+        <Portfolio />
+      </section>
+      <section className={styles.section}>
+        <Contact />
+      </section>
+      <Footer />
+    </div>
   );
 };
 

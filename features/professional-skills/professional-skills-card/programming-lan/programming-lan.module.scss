@@ -1,0 +1,22 @@
+.programmingSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 25px;
+  color: black;
+  position: absolute;
+  height: 70px;
+  left: 440px;
+  top: 270px;
+  background-color: #20b2aa;
+  color: #98fb98;
+  border-radius: 5px 5px 0 0;
+  box-shadow: inset 3em 1em 0.4em 0.1em #008080;
+  font-weight: 600;
+}
+
+.chain {
+  position: absolute;
+  left: 420px;
+  bottom: 0;
+}

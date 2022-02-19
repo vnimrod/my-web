@@ -1,7 +1,18 @@
 import React from 'react';
 import { ProfessionalSkillsCardList } from '../professional-skills-card-list';
+import texts from './professional-skills-section.texts.json';
 import styles from './professional-skills-section.module.scss';
+import { text } from 'node:stream/consumers';
 
 export const ProfessionalSkillsSection = () => {
-  return <ProfessionalSkillsCardList />;
+  return (
+    <>
+      <header className={styles.header}>
+        <span className={styles.learnSentence}>{texts.learnSentence}</span>
+        <span className={styles.title1}>{texts.title1}</span>
+        <span className={styles.title2}>{texts.title2}</span>
+      </header>
+      <ProfessionalSkillsCardList />
+    </>
+  );
 };
