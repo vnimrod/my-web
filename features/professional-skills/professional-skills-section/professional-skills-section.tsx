@@ -1,8 +1,8 @@
 import React from 'react';
-import { ProfessionalSkillsCardList } from '../professional-skills-card-list';
 import texts from './professional-skills-section.texts.json';
 import styles from './professional-skills-section.module.scss';
 import { text } from 'node:stream/consumers';
+import { ProfessionalSkillsCardList } from '../professional-skills-card-list';
 
 export const ProfessionalSkillsSection = () => {
   return (
