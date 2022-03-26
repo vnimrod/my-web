@@ -1,6 +1,6 @@
 .title {
   font-family: 'Lilita One', cursive;
-  color: #e0ffff;
+  color: #90ee90;
   font-size: 40px;
   position: absolute;
   bottom: 0;
@@ -9,26 +9,25 @@
 
 .frontendContainer {
   display: inline-block;
-  background-color: #483d8b;
+  background-color: #006a4e;
   position: relative;
   top: 80px;
   left: 30px;
   width: 350px;
   height: 250px;
-  box-shadow: 5px 5px 5px #708090;
+  box-shadow: 0 5px 5px #708090;
   margin-top: 80px;
 }
 
 .frontendSkills {
   width: 170px;
-  height: 267px;
-  padding: 5px;
+  height: 305px;
+  padding: 5px 0 5px 15px;
   position: absolute;
-  background-color: #e6e6fa;
+  background-color: #90ee90;
   bottom: 85px;
   left: 20px;
   border-radius: 3px;
-  color: #696969;
-  font-weight: 600;
-  line-height: 24px;
+  color: #004953;
+  line-height: 27px;
 }

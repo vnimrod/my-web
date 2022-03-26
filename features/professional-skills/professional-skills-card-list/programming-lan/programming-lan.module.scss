@@ -1,18 +1,20 @@
 .programmingSkills {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  line-height: 25px;
+  justify-content: center;
+  line-height: 30px;
   color: black;
   position: absolute;
   height: 70px;
-  left: 440px;
+  left: 449px;
   top: 270px;
   background-color: #20b2aa;
-  color: #98fb98;
+  color: #d0f0c0;
   border-radius: 5px 5px 0 0;
-  box-shadow: inset 3em 1em 0.4em 0.1em #008080;
-  font-weight: 600;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 5px #708090;
+  // font-weight: 600;
 }
 
 .chain {

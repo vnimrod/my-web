@@ -1,6 +1,6 @@
 .title {
   font-family: 'Lilita One', cursive;
-  color: #db7093;
+  color: #014421;
   font-size: 40px;
   position: absolute;
   top: 40px;
@@ -8,26 +8,27 @@
 }
 
 .backendContainer {
-  background-color: #4b0082;
+  background-color: #00ad83;
   position: absolute;
   top: 80px;
   right: 0;
   width: 350px;
   height: 250px;
-  box-shadow: inset 7em 1em gold;
+  box-shadow: inset 7em 1em #ace1af;
   margin-top: 150px;
 }
 
 .backendSkills {
-  width: 295px;
-  height: 175px;
+  width: 215px;
+  height: 180px;
   padding: 5px;
   position: absolute;
-  background-color: #db7093;
-  top: 110px;
-  right: 110px;
+  transform: rotate(-10deg);
+  text-align: center;
+  background-color: #6c7c59;
+  top: 135px;
+  left: 28px;
   border-radius: 3px;
-  color: #ffb6fe;
-  font-weight: 600;
+  color: #d0f0c0;
   line-height: 24px;
 }
