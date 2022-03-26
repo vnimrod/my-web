@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import texts from '../navigation-list/navigation-list.texts.json';
+import texts from '../navigation-list-data.json';
 import styles from './navigation-icons.module.scss';
 
 export const NavigationIcons = () => {

@@ -1,0 +1,28 @@
+.portfolio {
+  margin-top: 350px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.title1 {
+  position: absolute;
+  right: 440px;
+
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.title2 {
+  position: absolute;
+  right: 200px;
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  color: #708090;
+  text-align: end;
+  top: 70px;
+}

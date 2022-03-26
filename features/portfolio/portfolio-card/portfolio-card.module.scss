@@ -1,0 +1,44 @@
+.listItem {
+  position: relative;
+  display: flex;
+  // background-color: #008b8b;
+  border: 1px solid #1db954;
+  padding: 20px;
+  width: fit-content;
+  justify-self: center;
+  box-shadow: 0 4px 5px #708090;
+  border-radius: 2px;
+}
+
+.title {
+  position: absolute;
+  top: -35px;
+  font-family: 'Nunito', sans-serif;
+  color: #317873;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 5px #708090;
+  border-radius: 5px;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  color: #ace1af;
+  margin-left: 15px;
+
+  a {
+    margin: 10px 0;
+  }
+}

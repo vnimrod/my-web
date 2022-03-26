@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationItem } from '../navigation-item';
 import { NavigationIcons } from '../navigation-icons';
-import data from './navigation-list.texts.json';
+import data from '../navigation-list-data.json';
 import styles from './navigation-list.module.scss';
 
 export const NavigationList = () => {

@@ -1,6 +1,6 @@
 import { About } from '../../features/about';
 import { ProfessionalSkillsSection } from '../../features/professional-skills/professional-skills-section';
-import { Portfolio } from '../../features/portfolio';
+import { Portfolio } from '../../features/portfolio/portfolio-section';
 import { Contact } from '../../features/contact';
 import styles from '../../styles/Home.module.scss';
 import { Footer } from '../../components/footer';

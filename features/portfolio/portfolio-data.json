@@ -1,0 +1,30 @@
+{
+  "portfolioItems": [
+    {
+      "text": "Buzz - social network app",
+      "serverRepo": "https://github.com/vnimrod/buzz-social-app-server/tree/main",
+      "clientRepo": "https://github.com/vnimrod/buzz-social-app",
+      "deployment": "https://weinstein-buzz-client.web.app",
+      "img": "/buzz.PNG"
+    },
+    {
+      "text": "Nims chat app",
+      "serverRepo": "https://github.com/vnimrod/nims-chat-app-server",
+      "clientRepo": "https://github.com/vnimrod/nims-chat-app-client",
+      "deployment": "https://weinstein-nims-chat-app-client.herokuapp.com",
+      "img": "/chatApp.PNG"
+    },
+    {
+      "text": "Nims weather app",
+      "clientRepo": "https://github.com/vnimrod/nims-weather-app",
+      "deployment": "https://nims-weather-app.web.app/",
+      "img": "/weatherApp.PNG"
+    },
+    {
+      "text": "Personal website",
+      "clientRepo": "https://github.com/vnimrod/my-web",
+      "deployment": "",
+      "img": "/personalWeb.PNG"
+    }
+  ]
+}
